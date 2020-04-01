@@ -40,3 +40,10 @@
 - Event page runs only when required
 - background pages consume resources even when not required
 - Stick to event pages
+
+--Content Scripts--
+
+- Run in the context of the web page
+- Can change DOM, font color, hyperlinks and structure DOM,
+- Limitation - Can't use all chrome Api's
+- To fully utilise Context scripts we need to exchange messages between context scripts, backgroud scripts and popup scripts
